@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menna Alaa | Full-Stack Developer</title>
+  <meta name="description" content="Portfolio of Menna Alaa, ASP.NET Full-Stack Developer and Computer Science & AI graduate." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="nav" id="top">
+    <a href="#home" class="logo">menna<span>.dev</span></a>
+    <nav id="menu" class="menu">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact" class="btn btn-small">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">◐</button>
+      <button id="menuToggle" class="icon-btn menu-toggle" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-text reveal">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Menna Alaa</h1>
+        <h2><span id="typed"></span><span class="cursor">|</span></h2>
+        <p class="lead">
+          Computer Science &amp; AI graduate building responsive web applications,
+          RESTful APIs and database-driven solutions with ASP.NET Core and React.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn">View my work</a>
+          <a href="./MENNA_ALAA_SOFTWARE_ENGINEER_CV (2).pdf" class="btn btn-outline" download>Download CV</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/menna9191" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com/in/menna-alaa-22a369366" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:mennaalaa2811@gmail.com">Email</a>
+        </div>
+      </div>
+      <div class="hero-card reveal">
+        <div class="avatar">
+          <span>MA</span>
+          <img src="./menna.jpeg" alt="Menna Alaa" onerror="this.remove()" />
+        </div>
+        <ul class="facts">
+          <li><span>Location</span> New Cairo, Egypt</li>
+          <li><span>Degree</span> B.Sc. Computer Science (2026)</li>
+          <li><span>Focus</span> ASP.NET Core · React · SQL Server</li>
+          <li><span>Certified</span> Microsoft (ASP.NET Diploma)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h3 class="section-title reveal">About me</h3>
+      <div class="about-grid reveal">
+        <p>
+          I'm a Computer Science &amp; Artificial Intelligence graduate and ASP.NET Full-Stack
+          Developer with hands-on experience building responsive web applications, RESTful APIs,
+          and database-driven solutions.
+        </p>
+        <p>
+          I enjoy solving problems as part of a team and care about writing scalable, efficient and
+          secure software. My internships and training span software development, networking and
+          cybersecurity, which gives me a well-rounded view of how real systems are built and protected.
+        </p>
+      </div>
+      <div class="stats reveal">
+        <div><strong>3</strong><span>Featured projects</span></div>
+        <div><strong>3</strong><span>Internships &amp; programs</span></div>
+        <div><strong>6+</strong><span>Languages &amp; frameworks</span></div>
+        <div><strong>2026</strong><span>B.Sc. graduate</span></div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <h3 class="section-title reveal">Skills</h3>
+      <div class="cards">
+        <article class="card reveal">
+          <h4>Programming Languages</h4>
+          <div class="chips"><span>C#</span><span>JavaScript</span><span>SQL</span><span>HTML5</span><span>CSS3</span><span>Python</span></div>
+        </article>
+        <article class="card reveal">
+          <h4>Back-End</h4>
+          <div class="chips"><span>RESTful APIs</span><span>Authentication &amp; Authorization</span><span>MVC Architecture</span></div>
+        </article>
+        <article class="card reveal">
+          <h4>Frameworks</h4>
+          <div class="chips"><span>ASP.NET Core</span><span>ASP.NET MVC</span><span>Entity Framework Core</span><span>Bootstrap</span><span>Tailwind CSS</span><span>React.js</span></div>
+        </article>
+        <article class="card reveal">
+          <h4>Front-End</h4>
+          <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive Web Design</span></div>
+        </article>
+        <article class="card reveal">
+          <h4>Databases</h4>
+          <div class="chips"><span>SQL Server</span><span>MongoDB</span></div>
+        </article>
+        <article class="card reveal">
+          <h4>AI &amp; Security</h4>
+          <div class="chips"><span>Scikit-learn</span><span>TensorFlow</span><span>PyTorch</span><span>Flask</span><span>Docker</span><span>Cybersecurity</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <h3 class="section-title reveal">Experience &amp; Training</h3>
+      <div class="timeline">
+        <article class="t-item reveal">
+          <span class="date">08/2025</span>
+          <h4>Cybersecurity and AI in Banking</h4>
+          <p class="org">CIB · The Green Leap Summer Program</p>
+          <p>Covered cybersecurity fundamentals in banking: threat types (fraud, phishing, malware, ransomware), regulatory requirements and privacy laws. Studied AI/ML basics (what they are, supervised vs generative, banking use cases) and earned a Data Science badge from SAS for Responsible Innovation and Trustworthy AI.</p>
+        </article>
+        <article class="t-item reveal">
+          <span class="date">07/2025</span>
+          <h4>Network Internship</h4>
+          <p class="org">Khalda Petroleum Company</p>
+          <p>Assisted in maintaining switches, routers and wireless access points; configured and troubleshot basic connectivity issues. Monitored network performance (latency, throughput, packet loss), handled link-failure alarms, reviewed logs and performed simple patching under supervision.</p>
+        </article>
+        <article class="t-item reveal">
+          <span class="date">08/2024</span>
+          <h4>Software Developer Internship</h4>
+          <p class="org">Khalda Petroleum Company</p>
+          <p>Analyzed problems and worked with teams to develop solutions. Developed organizational skills by managing multiple tasks simultaneously while adhering to strict deadlines.</p>
+        </article>
+        <article class="t-item reveal">
+          <span class="date">08/2024</span>
+          <h4>ASP.NET Diploma</h4>
+          <p class="org">CLS Learning Solution</p>
+          <p>Built websites and projects during the program and earned a Microsoft certification.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h3 class="section-title reveal">Projects</h3>
+
+      <!-- Featured -->
+      <article class="project reveal">
+        <div class="project-head">
+          <span class="badge">Graduation Project · Grade: Very Good (B-)</span>
+          <h4>AI-Powered Phishing Detection &amp; Prevention System</h4>
+        </div>
+        <p>
+          An AI-based cybersecurity platform that detects and prevents phishing attacks across
+          URLs, emails, SMS and firewall traffic.
+        </p>
+        <ul>
+          <li>Contributed to Machine Learning and Deep Learning workflows: dataset selection, data preprocessing, feature extraction, feature selection and model evaluation.</li>
+          <li>Designed phishing generators for URL, Email and SMS attacks to support testing and validation.</li>
+          <li>Led development and deployment of the URL phishing detection module, including Flask API integration, Docker containerization and browser extension deployment.</li>
+          <li>Collaborated with a team to build and deploy an end-to-end phishing detection and prevention solution.</li>
+        </ul>
+        <div class="chips">
+          <span>Python</span><span>Scikit-learn</span><span>TensorFlow</span><span>PyTorch</span><span>Flask</span>
+          <span>Pandas</span><span>NumPy</span><span>Docker</span><span>Machine Learning</span><span>Deep Learning</span><span>Cybersecurity</span>
+        </div>
+        <a class="btn btn-outline" href="https://github.com/menna9191/AI-Powered-phishing-detection-and-prevention" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+
+      <div class="project-grid">
+        <article class="project project-sm reveal">
+          <div class="project-head">
+            <span class="badge">Web · HTML, CSS &amp; JavaScript</span>
+            <h4>Grand Egyptian Museum Website</h4>
+          </div>
+          <p>A responsive website showcasing the Grand Egyptian Museum.</p>
+          <ul>
+            <li>Interactive sections: museum information, exhibits, gallery, visitor schedule, location map and booking functionality.</li>
+            <li>Dynamic user interactions and smooth navigation with JavaScript.</li>
+            <li>Visually engaging gallery displaying museum artifacts and historical exhibits.</li>
+            <li>Responsive design across desktop, tablet and mobile, with modern UI, animations and structured content.</li>
+          </ul>
+          <div class="chips">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Responsive Web Design</span>
+          </div>
+          <a class="btn btn-outline" href="https://github.com/menna9191/Grand-Egyptian-Museum-Website" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+        <article class="project project-sm reveal">
+          <div class="project-head">
+            <span class="badge">Web · Tailwind CSS</span>
+            <h4>CineZone – Movie Discovery Website</h4>
+          </div>
+          <p>A responsive movie discovery website with search functionality and an interactive UI.</p>
+          <ul>
+            <li>Built multiple pages and dynamic movie components using JavaScript and DOM manipulation.</li>
+            <li>Search functionality to help users find movies quickly.</li>
+            <li>Optimized for seamless use across desktop and mobile devices.</li>
+          </ul>
+          <div class="chips">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Tailwind CSS</span>
+          </div>
+          <a class="btn btn-outline" href="https://github.com/menna9191/movie-website-cinezone" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+      </div>
+
+      <p class="more reveal">More projects on <a href="https://github.com/menna9191" target="_blank" rel="noopener">my GitHub</a>.</p>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <h3 class="section-title reveal">Education</h3>
+      <article class="card edu reveal">
+        <span class="date">06/2026</span>
+        <h4>Bachelor's Degree in Computer Science</h4>
+        <p class="org">Modern University for Technology &amp; Information (MTI)</p>
+      </article>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <h3 class="section-title reveal">Let's work together</h3>
+      <p class="lead center reveal">Open to junior full-stack and software developer opportunities. Send me a message!</p>
+      <div class="contact-grid reveal">
+        <div class="contact-info">
+          <a href="mailto:mennaalaa2811@gmail.com">✉ mennaalaa2811@gmail.com</a>
+          <a href="tel:+201021691672">☎ +20 102 169 1672</a>
+          <span>📍 New Cairo, Egypt, 5th Settlement</span>
+          <a href="https://linkedin.com/in/menna-alaa-22a369366" target="_blank" rel="noopener">in linkedin.com/in/menna-alaa-22a369366</a>
+          <a href="https://github.com/menna9191" target="_blank" rel="noopener">⌥ github.com/menna9191</a>
+        </div>
+        <form id="contactForm" class="form">
+          <input type="text" id="name" placeholder="Your name" required />
+          <input type="email" id="email" placeholder="Your email" required />
+          <textarea id="message" rows="5" placeholder="Your message" required></textarea>
+          <button type="submit" class="btn">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Menna Alaa. Built with HTML, CSS &amp; JavaScript.</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
